@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="23c21689-fe35-4407-a6d7-02fb194c055d" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <layers>
+    <layer Id="c23f10d5-737e-494e-a983-3eb1b2d63b34" name="FrmPhieu">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="12e141af-a5d5-4736-8c0b-594f3e81b033" direction="Forward">
+          <layerMoniker Id="43d2e979-65e4-4ca4-8c10-3462e7d855f0" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="32f7f434-166d-4a64-9cbe-22adeec31b33" direction="Forward">
+          <layerMoniker Id="60e54440-3868-40e9-b6f1-286226962c13" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="90c0bb17-5d17-4fbd-929c-57e8ee7a117e" direction="Forward">
+          <layerMoniker Id="50d0476b-f822-49c7-a48f-13789dc49de1" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="b781ce91-a058-4e21-93d4-81e078382d46" direction="Forward">
+          <layerMoniker Id="d91870c6-f489-4e21-bc57-79ba81e187f6" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="9eda26fd-b0bf-4a1f-ba2f-eef229849964" direction="Forward">
+          <layerMoniker Id="b86bd1e0-176b-4943-9b31-eb826f4ba63f" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="1c4c06a5-4850-4ec4-90db-5fae089aac4b" direction="Forward">
+          <layerMoniker Id="92b32bfc-cd47-4bc3-82d4-bf7987ebc8c8" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="2084b18b-8563-41b5-88f8-9515620b4806" name="FrmPhieu">
+          <ArtifactNode Label="FrmPhieu" Category="CodeSchema_Class" Id="(Assembly=../QLVT/bin/Debug/QLVT.exe Namespace=QLVT Type=FrmPhieu)" />
+          <ExpandedNode Id="(Assembly=QLVT Namespace=QLVT Type=FrmPhieu)" Label="FrmPhieu" Category="CodeSchema_Class">
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="f84759d0-3860-449a-bcec-7463e3017a7c" name="FrmTaoTaiKhoan">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="702bb91e-7d5e-42fd-b9b2-8a928a0d71e5" direction="Forward">
+          <layerMoniker Id="43d2e979-65e4-4ca4-8c10-3462e7d855f0" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="a00491d0-b25a-4a12-835d-12eb9675c98d" direction="Forward">
+          <layerMoniker Id="92b32bfc-cd47-4bc3-82d4-bf7987ebc8c8" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="9f1510eb-170b-4ae6-b9e5-47b0b0d87332" name="FrmTaoTaiKhoan">
+          <ArtifactNode Label="FrmTaoTaiKhoan" Category="CodeSchema_Class" Id="(Assembly=../QLVT/bin/Debug/QLVT.exe Namespace=QLVT Type=FrmTaoTaiKhoan)" />
+          <ExpandedNode Id="(Assembly=QLVT Namespace=QLVT Type=FrmTaoTaiKhoan)" Label="FrmTaoTaiKhoan" Category="CodeSchema_Class">
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="f693c90d-71ee-44db-ae4e-4b878eee1b19" name="FrmVatTu">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="6478bd52-c918-4a70-9986-792adda1cfc5" direction="Forward">
+          <layerMoniker Id="43d2e979-65e4-4ca4-8c10-3462e7d855f0" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="fca99e5f-6f0c-4564-8ec0-dcd02dc99fc2" direction="Forward">
+          <layerMoniker Id="92b32bfc-cd47-4bc3-82d4-bf7987ebc8c8" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="2e76ddca-e39d-47a6-a5fa-93943116e22a" name="FrmVatTu">
+          <ArtifactNode Label="FrmVatTu" Category="CodeSchema_Class" Id="(Assembly=../QLVT/bin/Debug/QLVT.exe Namespace=QLVT Type=FrmVatTu)" />
+          <ExpandedNode Id="(Assembly=QLVT Namespace=QLVT Type=FrmVatTu)" Label="FrmVatTu" Category="CodeSchema_Class">
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="43d2e979-65e4-4ca4-8c10-3462e7d855f0" name="Program">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="29262638-a599-4ed5-8c4e-22f6d81d5e94" direction="Forward">
+          <layerMoniker Id="c23f10d5-737e-494e-a983-3eb1b2d63b34" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="6af7476d-f823-4b94-a469-89fa336dd32d" direction="Forward">
+          <layerMoniker Id="f84759d0-3860-449a-bcec-7463e3017a7c" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="3f0bd545-2890-4b41-8c50-29053d01d4bf" direction="Forward">
+          <layerMoniker Id="f693c90d-71ee-44db-ae4e-4b878eee1b19" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="d0daec58-d417-4b99-9b8a-1d01f397cf0d" direction="Forward">
+          <layerMoniker Id="3e852e91-3498-4a81-8477-92f10652e497" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="f8c2e129-79d0-4164-9656-c970a81d3714" direction="Forward">
+          <layerMoniker Id="60e54440-3868-40e9-b6f1-286226962c13" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="6b0fa9c6-7248-4cba-916a-1f95c1c6df18" direction="Forward">
+          <layerMoniker Id="13a92b36-ea65-442b-acf8-a98fa42694d7" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="6200caf0-f554-4798-9ca8-04a88a3740ac" direction="Forward">
+          <layerMoniker Id="50d0476b-f822-49c7-a48f-13789dc49de1" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="1e56c243-7b25-4682-a8bb-4a957850d558" direction="Forward">
+          <layerMoniker Id="d91870c6-f489-4e21-bc57-79ba81e187f6" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="4d28edd0-6119-4c8d-9962-592daa9a7c29" direction="Forward">
+          <layerMoniker Id="b86bd1e0-176b-4943-9b31-eb826f4ba63f" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="f3083c48-b9b0-40ab-99ee-3041ee0c760a" direction="Forward">
+          <layerMoniker Id="93e388df-3982-40d6-86f3-cec00073b5a5" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="ff1949c7-d37b-494f-a083-d3cae7839687" direction="Forward">
+          <layerMoniker Id="ea9623cf-f7fe-4ce7-a22e-6d67baa78074" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="29853838-5022-4e19-977d-465bae176097" direction="Forward">
+          <layerMoniker Id="3687857b-ef0d-486b-ba96-1c5a7e125b0d" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="c7d82859-7b2d-472a-a414-5866262ba7e4" direction="Forward">
+          <layerMoniker Id="009ebf12-c6af-478a-9506-574ad0d3991a" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="c10d30dd-ca8d-4693-b916-bea01c688189" name="Program">
+          <ArtifactNode Label="Program" Category="CodeSchema_Class" Id="(Assembly=../QLVT/bin/Debug/QLVT.exe Namespace=QLVT Type=Program)" />
+          <ExpandedNode Id="(Assembly=QLVT Namespace=QLVT Type=Program)" Label="Program" Category="CodeSchema_Class">
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="ba4b42a3-6b81-4268-a1b9-022f8183c733" name="QLVT_DATHANGDataSet">
+      <references>
+        <reference Id="f014a169-9769-4d81-a29f-3c96b48f3c5f" name="QLVT_DATHANGDataSet">
+          <ArtifactNode Label="QLVT_DATHANGDataSet" Category="CodeSchema_Class" Id="(Assembly=../QLVT/bin/Debug/QLVT.exe Namespace=QLVT Type=QLVT_DATHANGDataSet)" />
+          <ExpandedNode Id="(Assembly=QLVT Namespace=QLVT Type=QLVT_DATHANGDataSet)" Label="QLVT_DATHANGDataSet" Category="CodeSchema_Class">
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="3e852e91-3498-4a81-8477-92f10652e497" name="SubFormCTDDH">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="af9c4a9e-4a7d-4717-a974-0c28566a285d" direction="Forward">
+          <layerMoniker Id="43d2e979-65e4-4ca4-8c10-3462e7d855f0" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="d3b3727d-7821-4b89-a44b-44b4147a3282" direction="Forward">
+          <layerMoniker Id="50d0476b-f822-49c7-a48f-13789dc49de1" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="641b3e31-00b9-49a9-af64-167fb695ff25" direction="Forward">
+          <layerMoniker Id="92b32bfc-cd47-4bc3-82d4-bf7987ebc8c8" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="b10ef9f5-c9e9-4735-b262-6e721cf70d33" name="SubFormCTDDH">
+          <ArtifactNode Label="SubFormCTDDH" Category="CodeSchema_Class" Id="(Assembly=../QLVT/bin/Debug/QLVT.exe Namespace=QLVT Type=SubFormCTDDH)" />
+          <ExpandedNode Id="(Assembly=QLVT Namespace=QLVT Type=SubFormCTDDH)" Label="SubFormCTDDH" Category="CodeSchema_Class">
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="60e54440-3868-40e9-b6f1-286226962c13" name="SubFormCTPN">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="31a14ebf-5912-498e-b4aa-7d67a1b4786e" direction="Forward">
+          <layerMoniker Id="c23f10d5-737e-494e-a983-3eb1b2d63b34" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="9b60201c-9d2d-4f6a-80ec-5ad72710027d" direction="Forward">
+          <layerMoniker Id="43d2e979-65e4-4ca4-8c10-3462e7d855f0" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="6d005d0e-66e8-44d6-ac5f-a0e2af49d2d9" direction="Forward">
+          <layerMoniker Id="92b32bfc-cd47-4bc3-82d4-bf7987ebc8c8" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="2d176e9a-895d-46d4-b2de-1791c2beaf03" name="SubFormCTPN">
+          <ArtifactNode Label="SubFormCTPN" Category="CodeSchema_Class" Id="(Assembly=../QLVT/bin/Debug/QLVT.exe Namespace=QLVT Type=SubFormCTPN)" />
+          <ExpandedNode Id="(Assembly=QLVT Namespace=QLVT Type=SubFormCTPN)" Label="SubFormCTPN" Category="CodeSchema_Class">
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="13a92b36-ea65-442b-acf8-a98fa42694d7" name="SubFormCTPX">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="9af67bc5-4cae-4d7a-8edf-67b2da7f1296" direction="Forward">
+          <layerMoniker Id="43d2e979-65e4-4ca4-8c10-3462e7d855f0" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="2d364d32-27ca-4171-a203-840adf0bc8b9" direction="Forward">
+          <layerMoniker Id="b86bd1e0-176b-4943-9b31-eb826f4ba63f" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="6c52c166-de65-40ab-9585-47adaf7150ae" direction="Forward">
+          <layerMoniker Id="92b32bfc-cd47-4bc3-82d4-bf7987ebc8c8" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="7104a161-2187-4bd5-bc88-71850e65ee1f" name="SubFormCTPX">
+          <ArtifactNode Label="SubFormCTPX" Category="CodeSchema_Class" Id="(Assembly=../QLVT/bin/Debug/QLVT.exe Namespace=QLVT Type=SubFormCTPX)" />
+          <ExpandedNode Id="(Assembly=QLVT Namespace=QLVT Type=SubFormCTPX)" Label="SubFormCTPX" Category="CodeSchema_Class">
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="50d0476b-f822-49c7-a48f-13789dc49de1" name="SubFormDDH">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="ffce988a-323b-419d-a863-de881866a4e5" direction="Forward">
+          <layerMoniker Id="c23f10d5-737e-494e-a983-3eb1b2d63b34" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="91a61aed-a2e5-41a1-b7dd-117d708d22de" direction="Forward">
+          <layerMoniker Id="43d2e979-65e4-4ca4-8c10-3462e7d855f0" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="0d6d7eb2-7751-45cd-906a-554e1fe598fd" direction="Forward">
+          <layerMoniker Id="3e852e91-3498-4a81-8477-92f10652e497" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="9c42ccee-2962-4a01-8542-6ef35a747c20" direction="Forward">
+          <layerMoniker Id="92b32bfc-cd47-4bc3-82d4-bf7987ebc8c8" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="89ac8729-72fb-440b-b91d-405886e72daa" name="SubFormDDH">
+          <ArtifactNode Label="SubFormDDH" Category="CodeSchema_Class" Id="(Assembly=../QLVT/bin/Debug/QLVT.exe Namespace=QLVT Type=SubFormDDH)" />
+          <ExpandedNode Id="(Assembly=QLVT Namespace=QLVT Type=SubFormDDH)" Label="SubFormDDH" Category="CodeSchema_Class">
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="d91870c6-f489-4e21-bc57-79ba81e187f6" name="SubFormPhieuNhap">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="146c4aab-6aa2-4cf2-8959-501c25d47f70" direction="Forward">
+          <layerMoniker Id="c23f10d5-737e-494e-a983-3eb1b2d63b34" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="9cf299c3-7239-4e5e-b8b1-42ba8b538384" direction="Forward">
+          <layerMoniker Id="43d2e979-65e4-4ca4-8c10-3462e7d855f0" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="a5e96a14-b7bf-47d8-89b0-11d2bd6341c6" direction="Forward">
+          <layerMoniker Id="60e54440-3868-40e9-b6f1-286226962c13" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="8a5bb10f-784a-4fa8-8629-475cea42cb93" direction="Forward">
+          <layerMoniker Id="92b32bfc-cd47-4bc3-82d4-bf7987ebc8c8" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="0848b139-89aa-42ef-9921-8c4a6b9a2387" name="SubFormPhieuNhap">
+          <ArtifactNode Label="SubFormPhieuNhap" Category="CodeSchema_Class" Id="(Assembly=../QLVT/bin/Debug/QLVT.exe Namespace=QLVT Type=SubFormPhieuNhap)" />
+          <ExpandedNode Id="(Assembly=QLVT Namespace=QLVT Type=SubFormPhieuNhap)" Label="SubFormPhieuNhap" Category="CodeSchema_Class">
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="b86bd1e0-176b-4943-9b31-eb826f4ba63f" name="SubFormPX">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="c27b3769-90a2-451c-90c8-263303d9ba8f" direction="Forward">
+          <layerMoniker Id="c23f10d5-737e-494e-a983-3eb1b2d63b34" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="702568d2-d6aa-41aa-b009-bb6bfe868583" direction="Forward">
+          <layerMoniker Id="43d2e979-65e4-4ca4-8c10-3462e7d855f0" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="9db540d3-eab7-4a1a-90bc-db8cdffd6324" direction="Forward">
+          <layerMoniker Id="13a92b36-ea65-442b-acf8-a98fa42694d7" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="0a9b5bac-f3a2-4fd8-aac5-5bf445a58a20" direction="Forward">
+          <layerMoniker Id="92b32bfc-cd47-4bc3-82d4-bf7987ebc8c8" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="bc6cf086-5421-48d5-974b-714eec295475" name="SubFormPX">
+          <ArtifactNode Label="SubFormPX" Category="CodeSchema_Class" Id="(Assembly=../QLVT/bin/Debug/QLVT.exe Namespace=QLVT Type=SubFormPX)" />
+          <ExpandedNode Id="(Assembly=QLVT Namespace=QLVT Type=SubFormPX)" Label="SubFormPX" Category="CodeSchema_Class">
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="92b32bfc-cd47-4bc3-82d4-bf7987ebc8c8" name="DS">
+      <references>
+        <reference Id="0f84b577-e17f-4872-b37a-6d851a243f25" name="DS">
+          <ArtifactNode Label="DS" Category="CodeSchema_Class" Id="(Assembly=../QLVT/bin/Debug/QLVT.exe Namespace=QLVT Type=DS)" />
+          <ExpandedNode Id="(Assembly=QLVT Namespace=QLVT Type=DS)" Label="DS" Category="CodeSchema_Class">
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="93e388df-3982-40d6-86f3-cec00073b5a5" name="FrmKho">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="48a06cd4-9728-4d57-9587-64a6fdf75956" direction="Forward">
+          <layerMoniker Id="43d2e979-65e4-4ca4-8c10-3462e7d855f0" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="b4a1ece9-8639-4a1c-a5a8-4b099f08b2aa" direction="Forward">
+          <layerMoniker Id="92b32bfc-cd47-4bc3-82d4-bf7987ebc8c8" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="175cfdd2-0148-4203-ad87-021853db2ab9" name="FrmKho">
+          <ArtifactNode Label="FrmKho" Category="CodeSchema_Class" Id="(Assembly=../QLVT/bin/Debug/QLVT.exe Namespace=QLVT Type=FrmKho)" />
+          <ExpandedNode Id="(Assembly=QLVT Namespace=QLVT Type=FrmKho)" Label="FrmKho" Category="CodeSchema_Class">
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="ea9623cf-f7fe-4ce7-a22e-6d67baa78074" name="FrmLogin">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="f4360eda-2f29-45ef-bc6d-f0326374005f" direction="Forward">
+          <layerMoniker Id="43d2e979-65e4-4ca4-8c10-3462e7d855f0" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="d02ead84-adbc-4f6a-9aa7-8b290990a111" direction="Forward">
+          <layerMoniker Id="ba4b42a3-6b81-4268-a1b9-022f8183c733" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="9de94bcb-4daa-43f6-aa2d-d9a6c3b362c6" direction="Forward">
+          <layerMoniker Id="3687857b-ef0d-486b-ba96-1c5a7e125b0d" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="2d6ff9c5-3729-43ea-a8d9-73def8c5de46" name="FrmLogin">
+          <ArtifactNode Label="FrmLogin" Category="CodeSchema_Class" Id="(Assembly=../QLVT/bin/Debug/QLVT.exe Namespace=QLVT Type=FrmLogin)" />
+          <ExpandedNode Id="(Assembly=QLVT Namespace=QLVT Type=FrmLogin)" Label="FrmLogin" Category="CodeSchema_Class">
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="3687857b-ef0d-486b-ba96-1c5a7e125b0d" name="FrmMain">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="4a763c34-0349-4f58-acc7-4451fd067db7" direction="Forward">
+          <layerMoniker Id="c23f10d5-737e-494e-a983-3eb1b2d63b34" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="fedf510a-43f2-450a-8525-b4ab444ea0fd" direction="Forward">
+          <layerMoniker Id="f84759d0-3860-449a-bcec-7463e3017a7c" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="4f64fe32-f1e4-418f-a49f-efbbbafad619" direction="Forward">
+          <layerMoniker Id="f693c90d-71ee-44db-ae4e-4b878eee1b19" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="5d933a88-d0a0-4c16-bf32-48659c30e5f6" direction="Forward">
+          <layerMoniker Id="43d2e979-65e4-4ca4-8c10-3462e7d855f0" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="ac501521-6916-4fc3-b86c-2ecfcd10916d" direction="Forward">
+          <layerMoniker Id="93e388df-3982-40d6-86f3-cec00073b5a5" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="df9906a5-773f-4db9-ac7c-e848c8f8bee8" direction="Forward">
+          <layerMoniker Id="ea9623cf-f7fe-4ce7-a22e-6d67baa78074" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="2fd160b4-706f-47d1-8430-42f43b754ea5" direction="Forward">
+          <layerMoniker Id="009ebf12-c6af-478a-9506-574ad0d3991a" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="354f39df-a263-4f2b-9283-c82fa4028c08" name="FrmMain">
+          <ArtifactNode Label="FrmMain" Category="CodeSchema_Class" Id="(Assembly=../QLVT/bin/Debug/QLVT.exe Namespace=QLVT Type=FrmMain)" />
+          <ExpandedNode Id="(Assembly=QLVT Namespace=QLVT Type=FrmMain)" Label="FrmMain" Category="CodeSchema_Class">
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="009ebf12-c6af-478a-9506-574ad0d3991a" name="FrmNhanVien">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="1cdcc2a3-7cca-47f1-9fde-ef1fa4a96d47" direction="Forward">
+          <layerMoniker Id="43d2e979-65e4-4ca4-8c10-3462e7d855f0" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="c2767a39-85dc-4eae-a86f-35c41f8b4dc4" direction="Forward">
+          <layerMoniker Id="92b32bfc-cd47-4bc3-82d4-bf7987ebc8c8" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="51918e52-317b-43e8-906e-d11f2525d75a" name="FrmNhanVien">
+          <ArtifactNode Label="FrmNhanVien" Category="CodeSchema_Class" Id="(Assembly=../QLVT/bin/Debug/QLVT.exe Namespace=QLVT Type=FrmNhanVien)" />
+          <ExpandedNode Id="(Assembly=QLVT Namespace=QLVT Type=FrmNhanVien)" Label="FrmNhanVien" Category="CodeSchema_Class">
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+  </layers>
+</layerModel>
